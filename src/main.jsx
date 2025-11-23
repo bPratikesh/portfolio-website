@@ -13,27 +13,29 @@ rootDom.render(
     <header>
       <img
         src={reactImage}
-        style={{ width: "5rem", height: "5rem" }}
+        style={{ width: "4rem", height: "4rem" }}
         alt="Vite image"
       />
-      <h1>Hi I am a Full Stack Developer</h1>
+      <h1 className="heading">
+        Hi I am a Full Stack <span>Developer</span>
+      </h1>
     </header>
 
     <main>
-      <h2>My Name is Pratikesh</h2>
+      <h2 className="name-heading">My Name is Pratikesh</h2>
       <ol>
         <li>Lorem ipsum dolor sit amet.</li>
         <li>Lorem ipsum dolor sit amet.</li>
         <li>Lorem ipsum dolor sit amet.</li>
       </ol>
 
-      <a href="">
+      <a href="" className="button">
         <span>Hire Me</span>
         <img src={rightArrow} alt="right arrow" />
       </a>
     </main>
-    <footer>
-      <span>©️ All right reserved</span>
+    <footer style={{ marginTop: "2rem" }}>
+      <span style={{ color: "gray" }}>©️ All right reserved</span>
     </footer>
   </>
 );

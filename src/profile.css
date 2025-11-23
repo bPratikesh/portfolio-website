@@ -1,0 +1,28 @@
+.heading {
+  font-size: 3rem;
+  line-height: 1rem;
+}
+.heading > span {
+  color: greenyellow;
+  text-decoration: underline;
+  line-height: 5rem;
+}
+.name-heading {
+  font-size: 2rem;
+  font-weight: 300;
+}
+main > ol {
+  line-height: 2rem;
+}
+.button {
+  color: black;
+  background-color: greenyellow;
+  padding: 6px 16px;
+  border-radius: 6px;
+  margin-top: 2rem;
+  text-decoration: none;
+  display: flex;
+  width: fit-content;
+  gap: 8px;
+  font-weight: semibold;
+}
