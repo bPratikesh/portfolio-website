@@ -34,6 +34,7 @@ rootDom.render(
         <img src={rightArrow} alt="right arrow" />
       </a>
     </main>
+
     <footer style={{ marginTop: "2rem" }}>
       <span style={{ color: "gray" }}>©️ All right reserved</span>
     </footer>
